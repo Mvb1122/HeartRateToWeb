@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This program let you use the heart sensor of your Samsung Watch to display it on software that can read file like OBS. (tutorial below + watch compatibility list below). 
+This program lets you use the heart sensor of your Samsung Watch to display it on software that can read files like OBS. (tutorial below + watch compatibility list below). 
 
-This is a simple python program that react like a mini web server without the need of installing software like WAMP / LAMP or other web server like Apache / Nginix.
+This is a simple python program that reacts like a mini web server without the need of installing software like WAMP / LAMP or other web server like Apache / Nginix.
 
 ## How does it work ?
 
@@ -12,7 +12,7 @@ When you launch the file, the web server will start on your localhost and your L
 
 Usually for the best reaction time, you will use the LAN IP on your watch, and the localhost address on your software.
 
-To maximise the compatibility between devices, I started the project on a web app. This is fast and a convinient way to put things in place.
+To maximise the compatibility between devices, I started the project on a web app. This is a fast and convinient way to put things in place.
 
 ## Start the program
 
@@ -43,7 +43,7 @@ user@localhost~/Downloads/heartbeat$ python3 main.py [port]
 
 Sorry, I have no clue. Something similar to Linux ?
 
-## Bugs ? How do I report one ?
+## Bugs? How do I report one?
 
 For now, none. If you found one, please use the issue section.
 
@@ -73,11 +73,11 @@ Now for the othher watches :
  - Watches before this is likely to be too old.
  
 Now, watches with the Tizen Plaform version 2.3.2 and + 
-is supposed to be compatible.
+are supposed to be compatible.
 
 #### What about the Huawei Watches, Garmin, etc... ?
 
-Well it's complicated, because I don't own thhese watches. I have no clue if you can create your own app like Samsung.
+Well it's complicated. Because I don't own these watches, I have no clue if you can create your own app, like Samsung.
 
 ## Todo
 
@@ -131,7 +131,7 @@ you will be able to make your own template.
 The `/obs` endpoint output a HTML page with support of CSS and JS. 
 jQuery will be used to refresh the heartrate in real time.
 
-Add a browser source with `http://localost:6547/obs` and OBS will start to show the webpage you created.
+Add a browser source with `http://localhost:6547/obs` and OBS will start to show the webpage you created.
 
 ## Demos 
 
